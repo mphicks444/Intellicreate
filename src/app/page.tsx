@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, BarChart3, BrainCircuit, Lightbulb, Megaphone, Zap } from "lucide-react"
 
 import { Nav } from "@/components/nav"
@@ -471,16 +472,16 @@ export default function Home() {
               <Card>
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <img
+                    <Image
                       alt="User"
                       className="rounded-full"
-                      height="40"
+                      height={40}
+                      width={40}
                       src="/placeholder.svg?height=40&width=40"
                       style={{
                         aspectRatio: "40/40",
                         objectFit: "cover",
                       }}
-                      width="40"
                     />
                     <div className="grid gap-1">
                       <h3 className="font-semibold">Sarah Johnson</h3>
@@ -499,16 +500,16 @@ export default function Home() {
               <Card>
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <img
+                    <Image
                       alt="User"
                       className="rounded-full"
-                      height="40"
+                      height={40}
+                      width={40}
                       src="/placeholder.svg?height=40&width=40"
                       style={{
                         aspectRatio: "40/40",
                         objectFit: "cover",
                       }}
-                      width="40"
                     />
                     <div className="grid gap-1">
                       <h3 className="font-semibold">Michael Chen</h3>
@@ -526,16 +527,16 @@ export default function Home() {
               <Card>
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <img
+                    <Image
                       alt="User"
                       className="rounded-full"
-                      height="40"
+                      height={40}
+                      width={40}
                       src="/placeholder.svg?height=40&width=40"
                       style={{
                         aspectRatio: "40/40",
                         objectFit: "cover",
                       }}
-                      width="40"
                     />
                     <div className="grid gap-1">
                       <h3 className="font-semibold">Emily Rodriguez</h3>

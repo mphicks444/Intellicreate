@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, BarChart3, BrainCircuit, Megaphone, Palette } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -173,7 +174,7 @@ export default function ServicesPage() {
             </Link>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/placeholder.svg?height=300&width=400"
               alt="Branding Illustration"
               width={400}
@@ -198,7 +199,7 @@ export default function ServicesPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
           <div className="flex items-center justify-center order-2 md:order-1">
-            <img
+            <Image
               src="/placeholder.svg?height=300&width=400"
               alt="Marketing Illustration"
               width={400}
@@ -369,7 +370,7 @@ export default function ServicesPage() {
             </Link>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/placeholder.svg?height=300&width=400"
               alt="Business Intelligence Illustration"
               width={400}
@@ -425,7 +426,7 @@ export default function ServicesPage() {
             </ol>
           </div>
           <div className="md:w-1/2">
-            <img
+            <Image
               src="/placeholder.svg?height=300&width=400"
               alt="How It Works"
               width={400}
