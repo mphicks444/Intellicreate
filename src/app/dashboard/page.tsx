@@ -84,7 +84,7 @@ export default function DashboardPage() {
               <Card className="col-span-3">
                 <CardHeader>
                   <CardTitle>Recent Activities</CardTitle>
-                  <CardDescription>Your team's latest actions</CardDescription>
+                  <CardDescription>Your team&apos;s latest actions</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
