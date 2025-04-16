@@ -14,7 +14,7 @@ export function Model3D({
   autoRotateSpeed = 1
 }) {
   const group = useRef<Group>(null)
-  const { nodes, materials } = useGLTF(modelPath)
+  const { nodes } = useGLTF(modelPath)
 
   useFrame((state, delta) => {
     if (autoRotate && group.current) {

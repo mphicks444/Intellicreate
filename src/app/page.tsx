@@ -489,9 +489,9 @@ export default function Home() {
                   </div>
                   <div className="mt-4">
                     <p className="text-muted-foreground">
-                      "IntelliCreate has transformed our marketing strategy. The AI-generated content is
+                      &ldquo;IntelliCreate has transformed our marketing strategy. The AI-generated content is
                       indistinguishable from human-created work, and the analytics have helped us optimize our campaigns
-                      for maximum ROI."
+                      for maximum ROI.&rdquo;
                     </p>
                   </div>
                 </CardContent>
@@ -517,8 +517,8 @@ export default function Home() {
                   </div>
                   <div className="mt-4">
                     <p className="text-muted-foreground">
-                      "As a startup founder, I wear many hats. IntelliCreate has been like having an entire creative and
-                      marketing team at my fingertips. The time and cost savings are incredible."
+                      &ldquo;As a startup founder, I wear many hats. IntelliCreate has been like having an entire creative and
+                      marketing team at my fingertips. The time and cost savings are incredible.&rdquo;
                     </p>
                   </div>
                 </CardContent>
@@ -544,9 +544,9 @@ export default function Home() {
                   </div>
                   <div className="mt-4">
                     <p className="text-muted-foreground">
-                      "The branding tools have helped us maintain consistency across all our channels while still
+                      &ldquo;The branding tools have helped us maintain consistency across all our channels while still
                       allowing for creativity. The business intelligence features have revealed insights we never would
-                      have discovered on our own."
+                      have discovered on our own.&rdquo;
                     </p>
                   </div>
                 </CardContent>

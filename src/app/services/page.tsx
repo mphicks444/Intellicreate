@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, BarChart3, BrainCircuit, Lightbulb, Megaphone, Palette, Type, Zap } from "lucide-react"
+import { ArrowRight, BarChart3, BrainCircuit, Megaphone, Palette } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -100,7 +100,7 @@ export default function ServicesPage() {
           <div>
             <h3 className="text-2xl font-bold mb-4">Develop Your Brand Identity</h3>
             <p className="text-muted-foreground mb-6">
-              Your brand is more than just a logo—it's the complete experience customers have with your company. Our AI
+              Your brand is more than just a logo—it&apos;s the complete experience customers have with your company. Our AI
               tools help you create a cohesive brand identity that communicates your values and connects with your
               audience.
             </p>

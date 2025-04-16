@@ -195,7 +195,7 @@ export default function DashboardPage() {
                         <p className="text-sm font-medium">Social Media Content</p>
                         <span className="text-xs text-amber-500 font-medium">Due in 3 days</span>
                       </div>
-                      <p className="text-xs text-muted-foreground">Generate next week's social media content</p>
+                      <p className="text-xs text-muted-foreground">Generate next week&apos;s social media content</p>
                     </div>
                     <div className="grid gap-1">
                       <div className="flex items-center justify-between">

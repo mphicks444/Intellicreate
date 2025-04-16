@@ -49,7 +49,7 @@ export default function ForgotPasswordPage() {
             Reset your password
           </h2>
           <p className="mt-2 text-center text-sm text-muted-foreground">
-            Enter your email address and we'll send you a link to reset your password.
+            Enter your email address and we&apos;ll send you a link to reset your password.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export default function ForgotPasswordPage() {
             <CardHeader>
               <CardTitle>Forgot Password</CardTitle>
               <CardDescription>
-                We'll send you a link to reset your password.
+                We&apos;ll send you a link to reset your password.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
