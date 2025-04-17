@@ -5,9 +5,11 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
   },
   experimental: {
-    serverActions: true,
+    serverActions: {
+      allowedOrigins: ['localhost:3000', 'intellicreate.vercel.app'],
+    },
   },
-  // Force dynamic rendering
+  // Disable static page generation
   staticPageGenerationTimeout: 0,
 }
 
