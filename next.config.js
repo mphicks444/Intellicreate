@@ -10,7 +10,9 @@ const nextConfig = {
     ],
   },
   experimental: {
-    serverActions: true,
+    serverActions: {
+      allowedOrigins: ['localhost:3000', 'intellicreate.vercel.app'],
+    },
   },
   // Disable static page generation
   staticPageGenerationTimeout: 0,
