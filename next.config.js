@@ -2,7 +2,10 @@
 const nextConfig = {
   output: 'standalone',
   images: {
-    domains: ['localhost'],
+    domains: ['images.unsplash.com'],
+  },
+  experimental: {
+    serverActions: true,
   },
   // Force dynamic rendering
   staticPageGenerationTimeout: 0,
