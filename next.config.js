@@ -11,13 +11,6 @@ const nextConfig = {
   },
   // Disable static page generation
   staticPageGenerationTimeout: 0,
-  // Force dynamic rendering
-  runtime: 'edge',
-  // Disable static optimization
-  reactStrictMode: true,
-  swcMinify: true,
-  // Disable static page generation
-  generateStaticParams: false,
 }
 
 module.exports = nextConfig 
