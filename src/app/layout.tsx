@@ -7,8 +7,8 @@ import { AuthProvider } from "@/components/providers/auth-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IntelliCreate - AI-Powered Business Solutions",
-  description: "Transform your business with AI-powered creativity, marketing, and intelligence.",
+  title: "Intellicreate",
+  description: "AI-powered creative platform",
 };
 
 export default function RootLayout({
